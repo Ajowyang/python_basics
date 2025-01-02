@@ -1,0 +1,9 @@
+2. num = 4396, num%10, num //10, num %10, num//10, num%10, num//10, num//10
+
+5. yes index out of range
+
+6.False
+
+7.ValueError cause 3.1415 is not an integer
+
+8. True 
