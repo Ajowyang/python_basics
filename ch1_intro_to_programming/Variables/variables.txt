@@ -1,0 +1,70 @@
+Idiomatic: works, produces expected result, follows standard naming conventions
+Non-idiomatic: works, produces expected result, doenst follow conventions
+Illegal: throws error or gives unexpected results
+
+variable name conventions: Snake case, all lower case letters, ASCII only (a-z, 0-9, _)
+
+1.
+index: idiomatic
+CatName: non-idiomatic
+lazy_dog: idionmatic
+quick_Fox: non-idiomatic
+1stCharacter: illegal
+operand2: idiomatic
+BIG_NUMBER: non-idiomatic
+π: non-idiomatic 
+
+function name conventions: same as variable
+
+2.
+index: idiomatic
+CatName: non-idiomatic
+lazy_dog: idiomatic
+quick_Fox: non-idiomatic
+1stCharacger: illegal
+operand2: idiomatic
+BIG_NUMBER: non-idiomatic
+π: non-idiomatic
+
+constant name convention: all caps snake case, ASCII only (A-Z 0-9, _)
+
+3.
+index: non-idiomatic
+CatName: non-idiomatic
+snake_case: non-idiomatic
+LAZY_DOG3: idiomatic
+1ST: illegal
+operand2: non-idiomatic
+BIG_NUMBER: idiomatic
+π: non-idiomatic
+
+class name convention: PascalCase (camelCase w first letter capital) no underscore A-Z a-z 0-9
+
+4.
+index: non-idiomatic
+CatName: idiomatic
+Lazy_Dog: non-idiomatic
+1ST: illegal
+operand2: non-idiomatic
+BigNumber3: idiomatic
+π: non-idiomatic
+
+
+7. the program will greet Victor then reassign the value of name then greet Nina
+
+
+10.
+obj = 'ABcd'		Reassign
+obj.upper()		Neither
+obj = obj.lower()	Reassign
+print(len(obj))		Neither
+obj = list(obj)		Reassign
+obj.pop()		Mutate
+obj[2] = 'X'		Mutate
+obj.sort()		Mutate
+set(obj)		Neither
+obj = tuple(obj)	Reassign
+
+Initialization with = is reassignment
+Mutation usually happens with mutating method 
+Something that changes something at an index such as inded ressignment is mutation

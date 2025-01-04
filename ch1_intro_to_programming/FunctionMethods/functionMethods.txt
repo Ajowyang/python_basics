@@ -1,0 +1,56 @@
+1. Error, foo doesnt exist outside of set_foo function scope
+2. foo, invocation of set_foo() function creates new variable foo in its scope
+4.	function name: multiply_numbers
+	function arguments: 2, 3, 4
+	function definition: lines 1-3
+	function body: lines 2, 3
+	function parameters: num1, num2, num3
+	function invocation: multiply_numbers(2, 3, 4)
+	function return value: result = 24
+	all identifiers: multiply_numbers, num1, num2, num3, result, product
+5. Yipeee!!!! is return value but nothing is printed
+6. nothing, returns before print statement
+7. throws error, missing a positional argument
+8. throws error, too manya arguments
+9. prints 42 then 3.141592 then 2.718
+10. prints 42 then 3.141592 then 2
+11. prints 42 then 3 then 2
+12. throws error missing argument
+13. throws error, after positional argument has default value, all subsequent paramters must have default values too
+14.	1[multiply, left, right] 
+	2[left, right] 
+	4[get_num, prompt] 5[prompt] 
+	5[float, input, prompt]
+	7[first_number, get_num] 
+	8[second_number, get_num] 
+	9[product, multoply, first_number, second_number]
+	10[print, first_number, second_number, product]
+
+15. 	multiply: global
+	left: local
+	right: local
+	get_num: global
+	float: built-in
+	input: built-in
+	prompt: local
+	first_number: global
+	second_number: global
+	product: global
+	print: built-in
+
+16.	Function Names
+ 	1: multiple(left, right)
+	4: get_num(prompt)
+	5: float, input
+	10: print
+	Parameters
+	1: left, right
+	4: prompt
+
+17. 
+	function names: say,
+	built-in: input, max, print
+	method: upper, lower
+
+18. any(remainders_3())
+19. all(remainders_5())

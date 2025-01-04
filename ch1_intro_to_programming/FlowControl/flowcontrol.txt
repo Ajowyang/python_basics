@@ -1,0 +1,13 @@
+1. False, True, 3, 3, False, True, False, False, False, True
+3.
+	Product2
+	Product not found!
+4.
+	if foo()):
+		return 'bar'
+	else:
+		return qux()
+5. Empty
+
+6. 
+	

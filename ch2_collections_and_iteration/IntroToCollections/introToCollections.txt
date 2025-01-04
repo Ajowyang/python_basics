@@ -1,0 +1,21 @@
+1. len(people)
+2. I must reassign cause tuples are immutable
+	stuff = ('hello', 'world', 'goodbye', 'now')
+	stuff = stuff[0:2]+('goodbye', stuff[3])
+	stuff=list(stuff)
+	stuff[2] = 'goodbye'
+	stuff = tuple(stuff)
+3.
+	tuples are immutable, tuplea use parenthasees while lists use sq brackets
+	lists and tuples both store multiple values, both iterable, both heterogenous, don't need elements to be same type
+4. strings have indexes, are ordered, and are iterable too
+5. Set are unordered, no indexing
+7. 
+	[0,1,2,3,4,5,6]
+	[1,2,3,4,]5
+	[3,7,11]
+	[]
+	[8,7,6,5,4]
+8. given range(3, 17, 4), print(list/tuple(range(3, 17, 4)))
+9. yes, no, yes, yes
+10. no sets dont have a set order
