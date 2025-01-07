@@ -1,0 +1,13 @@
+5. 
+['a', 'b']
+{'a': 1, 'b': 2}
+{1, 4, 9, 16, 25}
+
+6. False, False, False, False, False, True, True, False, False, False, False
+
+8. for the fjords 8
+29
+
+11. False True True False True False False True False False
+13. True False True False
+15. dict_keys(['Cat', 'Bird', 'Snake'])
