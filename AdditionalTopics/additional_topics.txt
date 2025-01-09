@@ -1,0 +1,7 @@
+1. one is equivalent value and the next is whether references the same object
+
+2. set1 = {42, 'Monty Python', ('a', 'b', 'c'), range(5, 10)}
+
+3. 'The Life of Brian'
+
+4. [1, 42, 3]
